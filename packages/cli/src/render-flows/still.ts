@@ -420,8 +420,8 @@ export const renderStillFlow = async ({
 				printToConsole: true,
 			});
 		},
-		apiKey: null,
 		licenseKey: null,
+		isProduction: null,
 	});
 
 	aggregate.rendering = {

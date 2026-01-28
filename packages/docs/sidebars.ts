@@ -117,6 +117,7 @@ const sidebars: SidebarsConfig = {
 				'cli/versions',
 				'cli/upgrade',
 				'cli/add',
+				'cli/skills',
 				'cli/ffmpeg',
 				'cli/ffprobe',
 				'cli/gpu',
@@ -788,6 +789,7 @@ const sidebars: SidebarsConfig = {
 				'web-renderer/can-render-media-on-web',
 				'web-renderer/get-encodable-video-codecs',
 				'web-renderer/get-encodable-audio-codecs',
+				'web-renderer/types',
 			],
 		},
 		{
@@ -845,6 +847,7 @@ const sidebars: SidebarsConfig = {
 				'measuring',
 				'using-randomness',
 				'noise-visualization',
+				'maps',
 				'animation-math',
 			],
 		},
@@ -1168,6 +1171,7 @@ const sidebars: SidebarsConfig = {
 				id: 'ai/index',
 			},
 			items: [
+				'ai/claude-code',
 				'ai/bolt',
 				'ai/chatbot',
 				'ai/mcp',
@@ -1367,8 +1371,8 @@ const sidebars: SidebarsConfig = {
 			items: [
 				'miscellaneous/render-in-browser',
 				'miscellaneous/automatic-duration',
-				'miscellaneous/vercel-functions',
 				'miscellaneous/nextjs',
+				'miscellaneous/vercel',
 				'miscellaneous/render-on-edge',
 				'miscellaneous/embed-studio',
 				'miscellaneous/absolute-paths',
@@ -1376,6 +1380,7 @@ const sidebars: SidebarsConfig = {
 				'miscellaneous/parse-media-vs-get-video-metadata',
 				'miscellaneous/pexels',
 				'compare/motion-canvas',
+				'lovable-for-motion-graphics',
 			],
 		},
 		{
