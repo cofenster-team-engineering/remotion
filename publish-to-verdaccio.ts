@@ -178,7 +178,7 @@ function main() {
 
 	// Step 3: Install dependencies
 	log("3", "Step 3: Install dependencies", colors.yellow);
-	exec("bun", ["install"], "Install dependencies");
+	exec("bun", ["install", "--registry https://registry.npmjs.org"], "Install dependencies");
 	console.log("");
 
 	// Step 4: Build
